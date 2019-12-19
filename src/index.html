@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+Name: <input id="inputValue" type="text" placeholder="Input Name" oninput="filterUsers()">
+
+<select id="filter" oninput="filterUsers()">
+    <option value="name" selected>Name</option>
+    <option value="email">E-mail</option>
+    <option value="username">Username</option>
+</select>
+<table id="users"></table>
+</body>
+</html>

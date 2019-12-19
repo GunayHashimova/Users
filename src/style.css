@@ -1,0 +1,54 @@
+body{
+    width: 2000px;
+    height: 2000px;
+}
+
+
+
+#inputValue{
+    width: 200px;
+    font-size: large;
+    margin: 10px;
+}
+
+#users{
+    width: 1500px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+    width: 30px;
+    color: white;
+    font-size: x-large;
+    background-color: black;
+}
+
+td{
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tbody:nth-child(odd){
+    background-color: pink;
+}
+
+tr:hover{
+    cursor: pointer;
+    background-color: deeppink;
+}
+
+
+#del {
+    width: 50px;
+}
+
+.deleteButton {
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    background-color: white;
+}
